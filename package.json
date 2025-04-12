@@ -1,0 +1,27 @@
+{
+  "name": "mauireactor-snippets",
+  "displayName": "MauiReactor Snippets",
+  "description": "Snippets for MauiReactor Components, Parameters, Props, and more.",
+  "version": "0.0.3",
+  "publisher": "lukewire129",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "csharp",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+  "tags": [
+    "MauiReactor",
+    "C#",
+    "snippets",
+    "maui"
+  ]
+}

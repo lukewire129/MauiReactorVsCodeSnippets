@@ -1,0 +1,61 @@
+{
+    "MauiReactor Component only": {
+        "prefix": "mrcp",
+        "body": [
+            "using MauiReactor;",
+            "",
+            "",
+            "class ${1:MyComponent} : Component",
+            "{",
+            "    public override VisualNode Render()",
+            "           => ContentView(",
+            "              );",
+            "}",
+        ],
+        "description": "Create a MauiReactor Component without State"
+    },
+    "MauiReactor Component with State": {
+        "prefix": "mrcpns",
+        "body": [
+            "using MauiReactor;",
+            "",
+            "",
+            "class ${1:MyComponent} : Component<${1}State>",
+            "{",
+            "    public override VisualNode Render()",
+            "           => ContentView(",
+            "              );",
+            "    }",
+            "}",
+            "",
+            "class ${1}State",
+            "{",
+            "}"
+        ],
+        "description": "Create a MauiReactor Component with matching State class"
+    },
+    "Prop field": {
+        "prefix": "mrprop",
+        "body": [
+            "[Prop]",
+            "string _${1:property};"
+        ],
+        "description": "Create a field with [Prop] attribute"
+    },
+    "inject field": {
+        "prefix": "mrinject",
+        "body": [
+            "[Inject]",
+            "${1:type} _${2:service};"
+        ],
+        "description": "Create a field with [Inject] attribute"
+    },
+    "Parameter field": {
+        "prefix": "mrparam",
+        "body": [
+            "[Param]",
+            "${1:IParameter} _${2:parameter};"
+        ],
+        "description": "Create a field with [Inject] attribute"
+    }
+}
