@@ -6,11 +6,17 @@ It helps you quickly generate MauiReactor components, states, parameters, and pr
 ## Included Snippets
 
 - `mrcp` → Component template  
+<img src ="mrcp.gif" width="500"/>
 - `mrcps` → Component + State class  
+<img src ="mrcps.gif" width="500"/>
 - `mrparam` → `[Param] IParameter<Custom>` template  
+<img src ="mrparam.gif" width="500"/>
 - `mrprop` → `[Prop]` property template  
+<img src ="mrprop.gif" width="500"/>
 - `mrinject` → `[Inject]` property template  
+<img src ="mrinject.gif" width="500"/>
 - `mrnode` → VisualNode Function
+<img src ="mrnode.gif" width="500"/>
 
 ## Usage
 
@@ -24,11 +30,17 @@ MauiReactor 컴포넌트, 스테이트, 파라미터, 프로퍼티 등을 빠르
 ## 포함된 스니펫 목록
 
 - `mrcp` → Component 기본 템플릿
+<img src ="mrcp.gif" width="500"/>
 - `mrcps` → Component + State 클래스
+<img src ="mrcps.gif" width="500"/>
 - `mrparam` → [Param] IParameter<Custom> 템플릿
+<img src ="mrparam.gif" width="500"/>
 - `mrprop` → [Prop] 속성 템플릿
+<img src ="mrprop.gif" width="500"/>
 - `mrinject` → [Inject] 속성 템플릿
+<img src ="mrinject.gif" width="500"/>
 - `mrnode` → VisualNode 함수
+<img src ="mrnode.gif" width="500"/>
 
 ## 사용법
 

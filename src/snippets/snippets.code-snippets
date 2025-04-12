@@ -16,7 +16,7 @@
         "description": "Create a MauiReactor Component without State"
     },
     "MauiReactor Component with State": {
-        "prefix": "mrcpns",
+        "prefix": "mrcps",
         "body": [
             "using MauiReactor;",
             "",
