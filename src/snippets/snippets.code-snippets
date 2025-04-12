@@ -58,5 +58,14 @@
             "IParameter<${1:ParameterClass}> _${2:parameterProperty};"
         ],
         "description": "Create a field with [Inject] attribute"
+    },
+    "VisualNode Function": {
+        "prefix": "mrnode",
+        "body": [
+            "VisualNode ${1:funcionName}()",
+            "    => ${2:ContentView}(",
+            "           $3",
+            "       );"
+        ]
     }
 }

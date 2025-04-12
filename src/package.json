@@ -2,7 +2,7 @@
   "name": "mauireactor-snippets",
   "displayName": "MauiReactor Snippets",
   "description": "Snippets for MauiReactor Components, Parameters, Props, and more.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "lukewire129",
   "engines": {
     "vscode": "^1.50.0"

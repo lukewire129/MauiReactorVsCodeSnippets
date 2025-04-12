@@ -10,6 +10,7 @@ It helps you quickly generate MauiReactor components, states, parameters, and pr
 - `mrparam` → `[Param] IParameter<Custom>` template  
 - `mrprop` → `[Prop]` property template  
 - `mrinject` → `[Inject]` property template  
+- `mrnode` → VisualNode Function
 
 ## Usage
 
@@ -27,6 +28,7 @@ MauiReactor 컴포넌트, 스테이트, 파라미터, 프로퍼티 등을 빠르
 - `mrparam` → [Param] IParameter<Custom> 템플릿
 - `mrprop` → [Prop] 속성 템플릿
 - `mrinject` → [Inject] 속성 템플릿
+- `mrnode` → VisualNode 함수
 
 ## 사용법
 
