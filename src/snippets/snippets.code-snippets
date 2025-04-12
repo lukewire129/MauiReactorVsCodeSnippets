@@ -4,8 +4,9 @@
         "body": [
             "using MauiReactor;",
             "",
+            "namespace ${1:YourProject}.${2:Pages};",
             "",
-            "class ${1:MyComponent} : Component",
+            "public partial class ${3:MyComponent} : Component",
             "{",
             "    public override VisualNode Render()",
             "           => ContentView(",
@@ -19,17 +20,17 @@
         "body": [
             "using MauiReactor;",
             "",
+            "namespace ${1:YourProject}.${2:Pages};",
             "",
-            "class ${1:MyComponent} : Component<${1}State>",
+            "public class ${3}State",
+            "{",
+            "}",
+            "",
+            "public partial class ${3:MyComponent} : Component<${3}State>",
             "{",
             "    public override VisualNode Render()",
             "           => ContentView(",
             "              );",
-            "    }",
-            "}",
-            "",
-            "class ${1}State",
-            "{",
             "}"
         ],
         "description": "Create a MauiReactor Component with matching State class"
@@ -38,7 +39,7 @@
         "prefix": "mrprop",
         "body": [
             "[Prop]",
-            "string _${1:property};"
+            "${1:type} _${2:propertyName};"
         ],
         "description": "Create a field with [Prop] attribute"
     },
@@ -46,7 +47,7 @@
         "prefix": "mrinject",
         "body": [
             "[Inject]",
-            "${1:type} _${2:service};"
+            "${1:type} _${2:servieName};"
         ],
         "description": "Create a field with [Inject] attribute"
     },
@@ -54,7 +55,7 @@
         "prefix": "mrparam",
         "body": [
             "[Param]",
-            "${1:IParameter} _${2:parameter};"
+            "IParameter<${1:ParameterClass}> _${2:parameterProperty};"
         ],
         "description": "Create a field with [Inject] attribute"
     }
