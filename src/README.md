@@ -14,7 +14,7 @@ It helps you quickly generate MauiReactor components, states, parameters, and pr
 - `mrprop` → `[Prop]` property template  
 <img src ="mrprop.gif" width="500"/>
 - `mrinject` → `[Inject]` property template  
-<img src ="mrinject.gif" width="500"/>
+<img src ="mrInect.gif" width="500"/>
 - `mrnode` → VisualNode Function
 <img src ="mrnode.gif" width="500"/>
 
@@ -38,7 +38,7 @@ MauiReactor 컴포넌트, 스테이트, 파라미터, 프로퍼티 등을 빠르
 - `mrprop` → [Prop] 속성 템플릿
 <img src ="mrprop.gif" width="500"/>
 - `mrinject` → [Inject] 속성 템플릿
-<img src ="mrinject.gif" width="500"/>
+<img src ="mrInect.gif" width="500"/>
 - `mrnode` → VisualNode 함수
 <img src ="mrnode.gif" width="500"/>
 
